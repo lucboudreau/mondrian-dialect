@@ -2,7 +2,7 @@
 
 # mondrian-dialect
 
-This project is a demo creating a dialect for Mondrian, the OLAP engine.
+This project is a demo creating a dialect for Mondrian, the OLAP engine. Since each RDBMS support *different SQL standards*, Mondrian needs to be told how to generate the SQL properly for each of them. Additionally, some databases feature advanced aggregation functions, like grouping sets. Mondrian already has [built-in dialects](https://github.com/pentaho/mondrian/tree/master/src/main/mondrian/spi/impl) for most databases out there, but there are always new comers, so we put this project together to demonstrate where to get started in the process of developing your 
 
 Playing with the code
 -----------------
